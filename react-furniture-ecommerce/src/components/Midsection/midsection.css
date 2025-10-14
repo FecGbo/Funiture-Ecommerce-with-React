@@ -1,0 +1,40 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD700;
+}
+.section-left img{
+    width: 350px;
+    height: 350px;
+}
+.section-left {
+ flex:30%;
+ display: flex;
+ justify-content: center;
+}
+.section-right {
+    flex: 70%;
+    text-align: center;
+    padding: 1rem 3.5rem 1rem 1rem;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.section-right > * {
+    margin: 0;
+}
+
+.section-btn button{
+    width: 120px;
+    background-color: #FFD700;
+    color: black;
+    font-weight: bold;
+}
+

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Air Max",
+    "price": 12000,
+    "desc": "Cute best set",
+    "img": "/slider-img/img-1.jpg",
+    "category": "table"
+  },
+  {
+    "id": 2,
+    "name": "Adidas Ultraboost",
+    "price": 14000,
+    "desc": "Minimalist flower",
+    "img": "/slider-img/image-1.png",
+    "category": "bed"
+  },
+  {
+    "id": 3,
+    "name": "Puma RS-X",
+    "price": 11000,
+    "desc": "Small mug",
+    "img": "/slider-img/img-3.jpg",
+    "category": "sofa"
+  },
+   {
+    "id": 4,
+    "name": "Nike Air Max",
+    "price": 12000,
+    "desc": "cute best set",
+    "img": "/slider-img/img-1.jpg",
+    "category": "table"
+  },
+  {
+    "id": 5,
+    "name": "Adidas Ultraboost",
+    "price": 14000,
+    "desc": "Minimalist flower",
+    "img": "/slider-img/img-2.jpg",
+    "category": "bed"
+  },
+  {
+    "id": 6,
+    "name": "Puma RS-X",
+    "price": 11000,
+    "desc": "Small mug",
+    "img": "/slider-img/img-3.jpg",
+    "category": "sofa"
+  }
+]

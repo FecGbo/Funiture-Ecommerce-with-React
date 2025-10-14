@@ -4,6 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import {Route,Routes,BrowserRouter as Router} from 'react-router-dom'
+import ImageSlider from './components/ImageSlider'
+import Bestselling from './components/BestSelling/Bestselling'
+import Latestsale from './components/BestSelling/Latestsale'
+import Midsection from './components/Midsection/Midsection'
 
 
 function App() {
@@ -22,6 +26,13 @@ function App() {
 
 
     </Router>
+    <ImageSlider/>
+
+
+
+    <Latestsale/>
+        <Midsection/>
+    <Bestselling/>
 
       </>
 
