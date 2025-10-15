@@ -28,8 +28,8 @@ function Navbar() {
         
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/">Product</Link></li>
-                <li><Link to="/">About</Link></li>
+                <li><Link to="/.product">Product</Link></li>
+                <li><Link to="/.aboutus">About</Link></li>
                 <li><Link to="/">Contact</Link></li>
                 
             </ul>

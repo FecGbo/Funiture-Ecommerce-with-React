@@ -1,5 +1,6 @@
 import React from 'react'
 import './midsection.css'
+import { Navigate } from 'react-router-dom'
 
 function Midsection() {
   return (
@@ -16,7 +17,7 @@ function Midsection() {
                  of rooms that inspire you.</h3>
 
             <div className="section-btn">
-                <button>Shop</button>
+                <button onClick={()=>navigate('/')}>Shop</button>
             </div>
 
         </div>

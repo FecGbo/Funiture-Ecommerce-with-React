@@ -103,8 +103,9 @@ ul{
     align-items: center;
   }
   .navbar-profile {
-    justify-content: center;
+    /* justify-content: center;
     width: 100%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem; */
+    display: none;
   }
 }

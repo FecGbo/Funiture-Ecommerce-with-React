@@ -38,3 +38,46 @@ section{
     font-weight: bold;
 }
 
+
+/* ...existing styles... */
+
+@media (max-width: 900px) {
+  section {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0.5rem;
+  }
+  .section-left img {
+    width: 250px;
+    height: 250px;
+  }
+  .section-right {
+    padding: 1rem;
+    text-align: center;
+  }
+  .section-btn {
+    text-align: center;
+    margin-top: 1rem;
+}
+}
+
+@media (max-width: 600px) {
+  section {
+    flex-direction: column;
+    height: auto;
+    padding: 0.5rem 0.2rem;
+  }
+  .section-left img {
+    width: 180px;
+    height: 180px;
+  }
+  .section-right {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+  }
+  /* .section-btn button {
+    width: 100%;
+    min-width: 0;
+    font-size: 1rem;
+  } */
+}

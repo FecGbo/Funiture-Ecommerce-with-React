@@ -2,8 +2,9 @@ import { useState,useEffect } from 'react';
 import React from 'react'
 import Productcard from '../ProductCard/Productcard';
 
-function Latestsale() {
+function Latestsale({showTitle=true}) {
    const [products,setProducts]=useState([]);
+
     const [loading,setLoading]=useState(true);
 
     useEffect(()=>{
@@ -16,8 +17,8 @@ function Latestsale() {
     },[]);
     if(loading)return <p>Loading Products.........</p>
  return (
-    <div style={{ padding: '1rem 3rem' , fontFamily:"Arial, sans-serif",textAlign:"center",background:"white",color:"black"}}>
-      <h1>Luxury Latest Furniture</h1>
+    <div style={{ padding: '1rem 2rem' , fontFamily:"Arial, sans-serif",textAlign:"center",background:"white",color:"black"}}>
+     {showTitle &&  <h1>Luxury Latest Furniture</h1>}
       <div className='cards-container'>
         {products.slice(0,4).map((item)=>(
             //  <div key={item.id} className='cards'>

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Nike Air Max",
+    "name": "Noi Air Max",
     "price": 12000,
     "desc": "Cute best set",
     "img": "/slider-img/img-1.jpg",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "Adidas Ultraboost",
+    "name": "Yuop Gu Pro",
     "price": 14000,
     "desc": "Minimalist flower",
     "img": "/slider-img/image-1.png",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "Puma RS-X",
+    "name": "Auja Jo",
     "price": 11000,
     "desc": "Small mug",
     "img": "/slider-img/img-3.jpg",
@@ -25,7 +25,7 @@
   },
    {
     "id": 4,
-    "name": "Nike Air Max",
+    "name": "Toxu Jix",
     "price": 12000,
     "desc": "cute best set",
     "img": "/slider-img/img-1.jpg",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "name": "Adidas Ultraboost",
+    "name": "Bou Du",
     "price": 14000,
     "desc": "Minimalist flower",
     "img": "/slider-img/img-2.jpg",
@@ -41,10 +41,35 @@
   },
   {
     "id": 6,
-    "name": "Puma RS-X",
+    "name": "Tabu Xs",
     "price": 11000,
     "desc": "Small mug",
-    "img": "/slider-img/img-3.jpg",
+    "img": "/slider-img/image-3.png",
+    "category": "sofa"
+  }
+  ,
+   {
+    "id": 7,
+    "name": "Qu Qi",
+    "price": 12000,
+    "desc": "cute best set",
+    "img": "/slider-img/image-4.png",
+    "category": "table"
+  },
+  {
+    "id": 8,
+    "name": "Lou T",
+    "price": 14000,
+    "desc": "Minimalist flower",
+    "img": "/slider-img/image-6.png",
+    "category": "bed"
+  },
+  {
+    "id": 9,
+    "name": "Uou Cu",
+    "price": 11000,
+    "desc": "Small mug",
+    "img": "/slider-img/image-7.png",
     "category": "sofa"
   }
 ]

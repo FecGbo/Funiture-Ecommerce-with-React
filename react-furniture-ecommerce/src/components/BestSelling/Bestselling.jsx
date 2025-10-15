@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { data } from 'react-router-dom';
 
 import Productcard from '../ProductCard/Productcard';
-function Bestselling() {
+function Bestselling({showTitle=true}) {
     const [products,setProducts]=useState([]);
     const [loading,setLoading]=useState(true);
 
@@ -16,10 +16,10 @@ function Bestselling() {
     },[]);
     if(loading)return <p>Loading Products.........</p>
  return (
-    <div style={{ padding: '1rem 3rem' , fontFamily:"Arial, sans-serif",textAlign:"center",background:"white",color:"black"}}>
-      <h1>Best Selling Products</h1>
+    <div style={{ fontFamily:"Arial, sans-serif",textAlign:"center",background:"white",color:"black"}} className='product'>
+     { showTitle && <h1>Best Selling Products</h1>}
       <div className='cards-container'>
-        {products.map((item)=>(
+        {products.slice(0,8).map((item)=>(
             //  <div key={item.id} className='cards'>
             //     <img src={item.img} alt="" />
             //     <div className='product-desc'>

@@ -1,0 +1,153 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: black;
+  color: #FFD700;
+  flex-wrap: wrap; /* allow stacking on smaller screens */
+}
+
+/* LEFT SECTION */
+.footer-left {
+  flex: 50%;
+  min-width: 280px;
+  /* height: 255px; */
+}
+
+.footer-left > h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* RIGHT SECTION */
+.footer-right {
+  flex: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-right-one ul,
+.footer-right-two ul,
+.footer-right-three ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right li:first-child {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.payment {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+i.fa-solid.fa-sack-dollar,
+i.fa-brands.fa-cc-visa,
+i.fa-brands.fa-cc-mastercard {
+  font-size: 25px;
+}
+.footer-right-three p{
+    margin: 0;
+}
+
+/* --- RESPONSIVE DESIGN --- */
+
+/* Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  footer {
+    padding: 2rem;
+  }
+
+  .footer-right {
+    justify-content: space-around;
+  }
+  /* .footer-left {
+    height: 225px;
+            margin-bottom: 3rem;
+  } */
+}
+
+/* Mobile landscape / small tablet (≤768px) */
+@media (max-width: 852px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+
+ .footer-left {
+    height: auto;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .footer-right-one,
+  .footer-right-two,
+  .footer-right-three {
+    align-items: center;
+    text-align: center;
+  }
+
+  .payment {
+    justify-content: center;
+  }
+
+  i.fa-solid.fa-sack-dollar,
+  i.fa-brands.fa-cc-visa,
+  i.fa-brands.fa-cc-mastercard {
+    font-size: 22px;
+  }
+}
+
+
+
+/* Mobile portrait (≤480px) */
+/* @media (max-width: 480px) {
+  footer {
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-left {
+    height: auto;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .footer-right-one,
+  .footer-right-two,
+  .footer-right-three {
+    align-items: center;
+    text-align: center;
+  }
+
+  .payment {
+    justify-content: center;
+  }
+
+  i.fa-solid.fa-sack-dollar,
+  i.fa-brands.fa-cc-visa,
+  i.fa-brands.fa-cc-mastercard {
+    font-size: 22px;
+  }
+} */
