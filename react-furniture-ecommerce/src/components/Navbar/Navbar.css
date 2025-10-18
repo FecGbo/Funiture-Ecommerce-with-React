@@ -15,7 +15,11 @@ ul{
     flex-direction: row;
    gap: 2rem;
    padding: 0;
+  
 
+}
+ul li a{
+   color: #FFD700;
 }
 .navbar-profile{
     display: flex;
@@ -60,7 +64,51 @@ ul{
   transition: 0.3s;
 
 }
+/* Add to Navbar.css */
+.profile-modal {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background:black;
+  border: 1px solid #FFD700;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  padding: 1rem;
+  z-index: 1000;
+}
+.profile-modal button{
+  color:#FFD700;
+}
+.profile-modal ul {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.profile-modal li {
+  margin-bottom: 0.5rem;
+}
+.profile-modal li:last-child {
+  margin-bottom: 0;
+}
 
+.profile button{
+  border: none;
+  background-color: black;
+}
+
+.profile button:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.login-btn{
+  border: none;
+  background-color: black;
+  color:#FFD700;
+  
+}
 /* Tablet (≤ 900px) */
 @media (max-width: 900px) {
   .navbar {
@@ -72,6 +120,15 @@ ul{
   .navbar-logo {
     font-size: 20px;
   }
+  .cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart-count{
+    left:15px;
+  }
 }
 
 /* Mobile styles */
@@ -82,9 +139,10 @@ ul{
   .navbar-list {
     display: none;
     width: 100%;
-    background: #fff;
+    height: 100%;
+    background:black;
     position: absolute;
-    top: 60px; /* adjust to your navbar height */
+    top: 60px;
     left: 0;
     flex-direction: column;
     align-items: center;
@@ -102,10 +160,14 @@ ul{
     margin: 0;
     align-items: center;
   }
-  .navbar-profile {
-    /* justify-content: center;
+  /* .navbar-profile {
+    justify-content: center;
     width: 100%;
-    margin-bottom: 0.5rem; */
+    margin-bottom: 0.5rem;
+    display: none;
+  } */
+
+  .login-btn{
     display: none;
   }
 }

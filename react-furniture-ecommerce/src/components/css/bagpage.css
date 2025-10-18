@@ -1,0 +1,126 @@
+.bag-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    margin: 2rem auto;
+    color: black;
+}
+
+.bag-page {
+    flex: 2;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 2rem;
+}
+
+.bag-page table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.bag-page th, .bag-page td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.bag-page th {
+
+    font-weight: bold;
+}
+
+.bag-page img {
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.total-price {
+    flex: 1;
+  background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 2rem;
+    min-width: 260px;
+    max-width: 320px;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: fit-content;
+    color: #ffd700;
+}
+
+.total-price {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  
+}
+
+.subtotal{
+    display: flex;
+    flex-direction: column;
+   
+    align-items:start;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+
+   .alltotal {
+    font-weight: bold;
+    color: #ffd700;
+    border-bottom: none;
+    display: flex
+;
+    justify-content: space-between;
+}
+
+
+thead{
+    background-color: black !important;
+    color: #ffd700;
+}
+
+
+.subtotal-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.total-price h2{
+    margin:0;
+}
+
+.total-price button{
+    background-color:#ffd700;
+    color: #000000;
+    font-weight: bold;
+}
+@media (max-width: 900px) {
+    .bag-container {
+        flex-direction: column;
+        gap: 1rem;
+        width: 98%;
+    }
+    .total-price {
+      margin: 0;
+      max-width: 100%;
+        width: 100%;
+    }
+    .bag-page {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        box-sizing: border-box;
+        padding: 1rem;
+    }
+    .bag-page table {
+        min-width: 660px;
+    }
+}

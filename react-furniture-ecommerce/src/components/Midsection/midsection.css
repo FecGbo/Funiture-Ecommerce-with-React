@@ -4,6 +4,7 @@ section{
     align-items: center;
     height: 440px;
     padding: 1rem;
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFD700;
 }

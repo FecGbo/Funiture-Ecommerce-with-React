@@ -4,7 +4,7 @@ import Bestselling from './BestSelling/Bestselling'
 import Latestsale from './BestSelling/Latestsale'
 import Midsection from './Midsection/Midsection'
 
-function Home() {
+function Home({setShowSuccess}) {
 
   return (
     <div>
@@ -12,9 +12,9 @@ function Home() {
 
 
 
-    <Latestsale showTitle={true}/>
+    <Latestsale showTitle={true} setShowSuccess={setShowSuccess}/>
         <Midsection/>
-    <Bestselling showTitle={true}/>
+    <Bestselling showTitle={true} setShowSuccess={setShowSuccess}/>
   
     </div>
   )

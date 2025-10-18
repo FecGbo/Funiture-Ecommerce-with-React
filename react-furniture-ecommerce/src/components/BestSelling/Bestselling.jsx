@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { data } from 'react-router-dom';
 
 import Productcard from '../ProductCard/Productcard';
-function Bestselling({showTitle=true}) {
+function Bestselling({showTitle=true,setShowSuccess}) {
     const [products,setProducts]=useState([]);
     const [loading,setLoading]=useState(true);
 
@@ -30,7 +30,7 @@ function Bestselling({showTitle=true}) {
             //     </div>
 
             //  </div>
-            <Productcard key={item.id} product={item}/>
+            <Productcard key={item.id} product={item} setShowSuccess={setShowSuccess}/>
         ))}
     
       </div>

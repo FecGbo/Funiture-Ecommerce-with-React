@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react';
 import React from 'react'
 import Productcard from '../ProductCard/Productcard';
 
-function Latestsale({showTitle=true}) {
+function Latestsale({showTitle=true,setShowSuccess}) {
    const [products,setProducts]=useState([]);
 
     const [loading,setLoading]=useState(true);
@@ -31,7 +31,7 @@ function Latestsale({showTitle=true}) {
             //     </div>
 
             //  </div>
-            <Productcard key={item.id} product={item}/>
+            <Productcard key={item.id} product={item} setShowSuccess={setShowSuccess}/>
         ))}
     
       </div>

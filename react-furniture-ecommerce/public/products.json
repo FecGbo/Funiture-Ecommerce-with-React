@@ -5,7 +5,9 @@
     "price": 12000,
     "desc": "Cute best set",
     "img": "/slider-img/img-1.jpg",
-    "category": "table"
+    "category": "table",
+    "details":"This is a detailed description of the Tabu Xs sofa. It features high-quality materials and a modern design that fits perfectly in any living room setting. The sofa is available in multiple colors and comes with a 2-year warranty."
+ 
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@
     "price": 14000,
     "desc": "Minimalist flower",
     "img": "/slider-img/image-1.png",
-    "category": "bed"
+    "category": "bed",
+    "details":"This is a detailed description of the Tabu Xs sofa. It features high-quality materials and a modern design that fits perfectly in any living room setting. The sofa is available in multiple colors and comes with a 2-year warranty."
+ 
   },
   {
     "id": 3,
@@ -21,7 +25,9 @@
     "price": 11000,
     "desc": "Small mug",
     "img": "/slider-img/img-3.jpg",
-    "category": "sofa"
+    "category": "sofa",
+    "details":"This is a detailed description of the Tabu Xs sofa. It features high-quality materials and a modern design that fits perfectly in any living room setting. The sofa is available in multiple colors and comes with a 2-year warranty."
+ 
   },
    {
     "id": 4,
@@ -29,7 +35,9 @@
     "price": 12000,
     "desc": "cute best set",
     "img": "/slider-img/img-1.jpg",
-    "category": "table"
+    "category": "table",
+    "details":"This is a detailed description of the Tabu Xs sofa. It features high-quality materials and a modern design that fits perfectly in any living room setting. The sofa is available in multiple colors and comes with a 2-year warranty."
+ 
   },
   {
     "id": 5,
@@ -37,7 +45,9 @@
     "price": 14000,
     "desc": "Minimalist flower",
     "img": "/slider-img/img-2.jpg",
-    "category": "bed"
+    "category": "bed",
+    "details":"This is a detailed description of the Tabu Xs sofa. It features high-quality materials and a modern design that fits perfectly in any living room setting. The sofa is available in multiple colors and comes with a 2-year warranty."
+ 
   },
   {
     "id": 6,
@@ -45,16 +55,18 @@
     "price": 11000,
     "desc": "Small mug",
     "img": "/slider-img/image-3.png",
-    "category": "sofa"
-  }
-  ,
-   {
+    "category": "sofa",
+    "details":"This is a detailed description of the Tabu Xs sofa. It features high-quality materials and a modern design that fits perfectly in any living room setting. The sofa is available in multiple colors and comes with a 2-year warranty."
+  },
+  {
     "id": 7,
     "name": "Qu Qi",
     "price": 12000,
     "desc": "cute best set",
     "img": "/slider-img/image-4.png",
-    "category": "table"
+    "category": "table",
+    "details":"This is a detailed description of the Tabu Xs sofa. It features high-quality materials and a modern design that fits perfectly in any living room setting. The sofa is available in multiple colors and comes with a 2-year warranty."
+ 
   },
   {
     "id": 8,
@@ -62,7 +74,9 @@
     "price": 14000,
     "desc": "Minimalist flower",
     "img": "/slider-img/image-6.png",
-    "category": "bed"
+    "category": "bed",
+    "details":"This is a detailed description of the Tabu Xs sofa. It features high-quality materials and a modern design that fits perfectly in any living room setting. The sofa is available in multiple colors and comes with a 2-year warranty."
+ 
   },
   {
     "id": 9,
@@ -70,6 +84,8 @@
     "price": 11000,
     "desc": "Small mug",
     "img": "/slider-img/image-7.png",
-    "category": "sofa"
+    "category": "sofa",
+    "details":"This is a detailed description of the Tabu Xs sofa. It features high-quality materials and a modern design that fits perfectly in any living room setting. The sofa is available in multiple colors and comes with a 2-year warranty."
+ 
   }
 ]

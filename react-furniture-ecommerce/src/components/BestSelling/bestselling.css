@@ -11,6 +11,8 @@
 }
 /* Card styling */
 .cards {
+
+ 
   background-color: #F4F5F7;
   width: 100%;
   max-width: 320px;
@@ -25,8 +27,64 @@
   transition: transform 0.3s ease;
 }
 
+.cards::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.5); 
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.cards:hover::after {
+  opacity: 1;
+}
+
+
+.addCartbtn button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  background-color: #ffd700;
+  color: black;
+  z-index: 2; 
+}
+
+.cards:hover .addCartbtn button {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+
+
 .cards:hover {
   transform: scale(1.03);
+}
+.addCartbtn{
+  position: relative;
+}
+.addCartbtn button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  background-color: #ffd700;
+  color: black;
+}
+
+.cards:hover .addCartbtn button{
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* Image styling */
@@ -37,6 +95,8 @@
   height: 250px;
   object-fit: cover;
 }
+
+
 
 /* Product text area */
 .product-desc {
@@ -54,7 +114,10 @@
   opacity: 0.5;
 }
 
-/* --- RESPONSIVE DESIGN --- */
+
+
+
+
 
 /* For tablets (≤1024px) */
 @media (max-width: 1024px) {

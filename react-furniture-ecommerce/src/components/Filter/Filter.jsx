@@ -3,7 +3,7 @@ import "./filter.css"
 import Bestselling from '../BestSelling/Bestselling'
 
 
-function Filter() {
+function Filter({setShowSuccess}) {
     const[showFilter,setShowFilter]=useState(true);
  //detect mobile size
  useEffect(()=>{
@@ -96,7 +96,7 @@ function Filter() {
 
     </div>
     <div className="filter-content-right">
-    <Bestselling showTitle={false}/>
+    <Bestselling showTitle={false} setShowSuccess={setShowSuccess} />
     </div>
 
 
