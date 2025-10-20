@@ -1,0 +1,92 @@
+[{
+  "id": 1,
+  "customer": "John Doe",
+  "product": "Chair",
+  "quantity": 2,
+  "total": 100,
+  "date": "2023-10-01",
+  "status": "Shipped"
+},
+
+{
+  "id": 2,
+  "customer": "Jane Smith",
+  "product": "Table",
+  "quantity": 1,
+  "total": 250,
+  "date": "2023-10-05",
+  "status": "Processing"
+},
+{
+  "id": 3,
+  "customer": "Mike Johnson",
+  "product": "Sofa",
+  "quantity": 1,
+  "total": 500,
+  "date": "2023-10-10",
+  "status": "Delivered"
+},
+{
+  "id": 4,
+  "customer": "Emily Davis",
+  "product": "Bed",
+  "quantity": 1,
+  "total": 800,
+  "date": "2023-10-12",
+  "status": "Cancelled"
+},
+{
+  "id": 5,
+  "customer": "David Wilson",
+  "product": "Bookshelf",
+  "quantity": 3,
+  "total": 150,
+  "date": "2023-10-15",
+  "status": "Shipped"
+},
+{
+  "id": 6,
+  "customer": "Sarah Brown",
+  "product": "Desk",
+  "quantity": 1,
+  "total": 300,
+  "date": "2023-10-18",
+  "status": "Processing"
+},
+{
+  "id": 7,
+  "customer": "Chris Lee",
+  "product": "Wardrobe",
+  "quantity": 1,
+  "total": 600,
+  "date": "2023-10-20",
+  "status": "Delivered"
+},
+{
+  "id": 8,
+  "customer": "Anna Garcia",
+  "product": "Dresser",
+  "quantity": 2,
+  "total": 400,
+  "date": "2023-10-22",
+  "status": "Shipped"
+},
+{
+  "id": 9,
+  "customer": "James Martinez",
+  "product": "Nightstand",
+  "quantity": 1,
+  "total": 120,
+  "date": "2023-10-25",
+  "status": "Processing"
+},
+{
+  "id": 10,
+  "customer": "Laura Rodriguez",
+  "product": "Couch",
+  "quantity": 1,
+  "total": 700,
+  "date": "2023-10-28",
+  "status": "Delivered"
+}
+]

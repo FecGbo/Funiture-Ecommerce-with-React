@@ -1,4 +1,13 @@
 [
-  { "username": "admin", "password": "1234" },
-  { "username": "user", "password": "abcd" }
+  { "id": 1, "username": "admin", "password": "1234", "role": "admin", "isAdmin": true },
+  { "id": 2, "username": "user-1", "password": "abcd", "role": "customer", "isAdmin": false },
+  { "id": 3, "username": "john", "password": "abcd", "role": "manager", "isAdmin": false },
+  { "id": 4, "username": "alice", "password": "abcd", "role": "guest", "isAdmin": false },
+  { "id": 5, "username": "david", "password": "abcd", "role": "editor", "isAdmin": false },
+  { "id": 6, "username": "sophia", "password": "abcd", "role": "contributor", "isAdmin": false },
+  { "id": 7, "username": "michael", "password": "abcd", "role": "customer", "isAdmin": false },
+  { "id": 8, "username": "emma", "password": "abcd", "role": "customer", "isAdmin": false },
+  { "id": 9, "username": "oliver", "password": "abcd", "role": "customer", "isAdmin": false },
+  { "id": 10, "username": "ava", "password": "abcd", "role": "customer", "isAdmin": false },
+  { "id": 11, "username": "william", "password": "abcd", "role": "customer", "isAdmin": false }
 ]

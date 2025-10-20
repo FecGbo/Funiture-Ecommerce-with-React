@@ -22,7 +22,12 @@ function Login({setLoggedIn}) {
         if (found) {
             setLoggedIn(true);
             setError("");
-            navigate('/');
+
+            if(found.role==='admin' || found.isAdmin){
+                navigate('/admin/dashboard');
+            } else {
+                navigate('/');
+            }
         } else {
             setError("Username or Password does not match");
         }

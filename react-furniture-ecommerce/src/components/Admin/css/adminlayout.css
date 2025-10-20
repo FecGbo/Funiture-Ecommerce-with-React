@@ -1,0 +1,15 @@
+.admin-app {
+    display: flex
+;
+    /* flex-direction: column; */
+    height: 100%;
+    width: 100%;
+}
+
+.admin-main
+
+ {
+    background: black;
+    height: 100%;
+    width: 100%;
+}

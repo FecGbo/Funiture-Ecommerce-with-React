@@ -75,17 +75,17 @@ function Filter({setShowSuccess}) {
 
                 <div className="check-box">
                 <input type="checkbox" />
-            <label>Table</label>
+            <label>Sofas & Sectionals</label>
             </div>
 
                 <div className="check-box">
                 <input type="checkbox" />
-            <label>Table</label>
+            <label>Sectionals</label>
             </div>
 
                 <div className="check-box">
                 <input type="checkbox" />
-            <label>Table</label>
+            <label>Chairs & Armchairs</label>
             </div>
             
 
